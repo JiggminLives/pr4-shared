@@ -1,0 +1,28 @@
+{
+  "name": "pr4-global",
+  "version": "0.0.1",
+  "description": "A multiplayer platformer game.",
+  "keywords": "prize, game, multiplayer, mongo, redis",
+  "homepage": "https://github.com/Jiggmin/pr4-global",
+  "bugs": "https://github.com/JiggminLives/pr4-global/issues",
+  "license": "MIT",
+  "main": "src/prizer.js",
+  "author": {
+    "name": "Jacob Grahn",
+    "email": "contact@jiggmin.com",
+    "url": "http://jiggmin.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:JiggminLives/pr4-global.git"
+  },
+  "scripts": {
+    "testOnce": "jasmine-node spec/*",
+    "test": "jasmine-node spec/* --autotest --watch src/*"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "jasmine-node": "~1.14.5"
+  }
+}
